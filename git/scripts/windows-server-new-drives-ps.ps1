@@ -1,3 +1,5 @@
+# Format New Drives using grain data added to minion during vRA Server Build
+
 # ----- [ Get minion data ] -----
 $eDrive = salt-call grains.get vCROCS_Drive_E_Size --output=json | ConvertFrom-Json
 $eDrive = $eDrive.local

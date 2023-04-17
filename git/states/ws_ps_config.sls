@@ -17,7 +17,15 @@ create_folder_csv:
 create_folder_sqlite:
   file.directory:
     - name: 'C:\\sqlite'
-    
+
+create_folder_rvtools:
+  file.directory:
+    - name: 'C:\\RVTools'
+
+create_folder_iis_rvtools:
+  file.directory:
+    - name: 'C:\\inetpub\\wwwroot\\rvtools'
+
 # Windows Server Services
 stop_service:
   service.dead:
